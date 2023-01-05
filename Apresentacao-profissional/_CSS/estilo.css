@@ -1,0 +1,60 @@
+@charset 'utf-8';
+@import url();
+
+body {
+    background-color: #aeaaee;
+    color: rbg(black);
+}
+div#interface {
+    width: 80%;
+    background-color: white;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.8);
+    padding: 50px;
+}
+p {
+    text-align: justify;
+    
+}
+header#cabecalho img#foto {
+    position: absolute;
+    left: 79.5%;
+    top: 1.5%;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.8);
+}
+header#cabecalho {
+    border-bottom: 1px #aeaaee solid;
+    height: 150px;
+}
+nav#menu {
+    display: block;
+}
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 1%;
+    left: 38%;
+}
+nav#menu li {
+    display: inline-block;
+    background-color: #aeaaee;
+    padding: 10px;
+    margin: 5px;
+    transition: background-color 0.5s;
+    box-shadow: 0px 0px 5px;
+}
+nav#menu li:hover {
+    background-color: rgb(87, 77, 221);
+}
+nav#menu h1 {
+    display: none;
+}
+nav#menu a {
+    color: black;
+    text-decoration: none;
+}
+nav#menu a:hover {
+    color: white;
+    text-decoration: underline;
+}
